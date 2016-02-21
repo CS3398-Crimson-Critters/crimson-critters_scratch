@@ -1,0 +1,15 @@
+This will be the design description for a lost item the user wishes to upload.
+
+Each team member will add a feature with an explanation of how this feature satisfies the single user 
+principle and possibly some pseudocode on the features execution. (not all of us are on the same page 
+in android studio that should be covered in our first sprint)
+The reason for two classes (one for lost and one for found) is because we may later need to change one, 
+but not the other. Perhaps we should have a parent class (item) and children (lost item and found item)
+
+Feature 1: The item description. While the item description will in fact by used by multiple users (the 
+person who lost it and then later by the finding person as they attempt to match the item to its owner). 
+In this section of code we shall only worry ourselves with the uploading of the item description.
+In this case I theorize the item description could be held in a .txt file which would be passed as a string 
+to the lost_object constructor. 
+
+lost_object object5(description5.txt, other parameters. . .)
