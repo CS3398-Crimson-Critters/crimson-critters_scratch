@@ -57,6 +57,27 @@ public class MainActivity extends FragmentActivity {
         callbackManager = CallbackManager.Factory.create();
         LoginButton loginButton = (LoginButton) view.findViewById(R.id.usersettings_fragment_login_button);
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() { ... });
+
+        /**************************************************************************************
+         * Jason Flinn (jcf70) code begin
+         *************************************************************************************/
+
+        //Implement 4 tabs on main activity
+        //Lost Tab
+        //a list view / recycle view of user submitted "lost items"
+        //Found Tab
+        //a list view / recycle view of user submitted "found items"
+        //Messaging Tab
+        //messaging tab for communication between users (not sure what tech or view to use yet)
+        //Profile Tab
+        //user information
+        //allow editing of private and public info
+        //log in / out of account
+
+        /**************************************************************************************
+         * Jason Flinn (jcf70) code end
+         *************************************************************************************/
+
     }
 
  //Register this callback with the login button:
