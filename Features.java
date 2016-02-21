@@ -91,3 +91,14 @@ public void onCreate(Bundle savedInstanceState) {
 // ****************************************************************
 // Tony Lam (t_l102) code End
 // ****************************************************************
+
+/* Clicking on a Posting
+	< User first sees a list of postings (whether lost or found)
+	< once clicking on one, it directs to a different screen displaying the info
+	< Info Displayed: Details of item, pictures (if any), and option to contact OP
+	< clicking on the contact option opens a messaging window that automatically Subjects the message as the title of posting
+	< cursor is automatically blinking in the box where the message is to be typed
+	< send button is visible to complete the task with a pop up message confirming message has been sent
+	< User is then directed back to the original post
+	
+*/
