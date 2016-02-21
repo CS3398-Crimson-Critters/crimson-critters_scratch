@@ -123,3 +123,24 @@ public void onCreate(Bundle savedInstanceState) {
 	< User is then directed back to the original post
 	
 */
+
+/****************************************
+    Adriana Rios (amr225) code begin
+****************************************/
+// Detect if FB log in denied
+// To detect declined permissions, 
+// you can call the permissions edge on the User object of the Graph API. 
+// You can collect any declined permissions by iterating through the response:
+FB.api('/me/permissions', function(response) {
+  var declined = [];
+  for (i = 0; i < response.data.length; i++) { 
+    if (response.data[i].status == 'declined') {
+      declined.push(response.data[i].permission)
+    }
+  }
+  alert(declined.toString())
+});
+
+/****************************************
+    Adriana Rios (amr225) code end
+****************************************/
