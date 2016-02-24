@@ -178,3 +178,17 @@ Other Facebook log in test cases needed:
 > User changes their FB password after using FB to log into the app
 
    Kasie Kelldorf (klk2) comment end */
+
+
+/*Julian Gedeon (jjg124) comments begin
+Need to determine what kind of DBMS we would like to use in order to store various forms of data that we collect from users. (Likely mySQL or SQLlite)
+	Possible avenues for data that we could use:
+		User information data: Things that we collect via user input or from facebooks API. 
+		Store user posts info: The posts need a place to be stored from a given period of time.
+		Store GPS info: The physical location of where the user is while using the app for various reasons.
+		Message data: Messsaging interactions between users need to be stored for a given piece of time.
+
+
+
+
+Julian Gedeon (jjg124) comments end*/
